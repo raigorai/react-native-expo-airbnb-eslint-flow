@@ -24,7 +24,7 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 - (Option) NativeBase Snippets
 
 ### VSCode Settings
-Add settings to VSCode Setting( [Code] => [Settings] or Cmd+,)
+Add settings to VSCode Setting ([Code] => [Settings] or Cmd+,)
 ```
 {
   ...
