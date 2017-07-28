@@ -4,13 +4,15 @@ import { StyleSheet, Text, View } from 'react-native';
 import { AppLoading } from 'expo';
 
 export default class App extends React.Component {
-  constructor(props) {
+  constructor(props: any) {
     super(props);
 
     this.state = {
       isReady: false,
     };
   }
+
+  state: { isReady: boolean };
 
   componentWillMount() {
     this.setState({ isReady: true });
