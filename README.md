@@ -1,3 +1,42 @@
+## Usage
+```
+git clone git@github.com:/raigorai/react-native-expo-airbnb-eslint-flow
+mv react-native-expo-airbnb-eslint-flow <new project name>
+cd <new project name>
+rm -rf .git
+git init
+```
+
+### VSCode install and add shortcat
+```
+brew install vscode
+
+// using mac and zsh, add line to .zshrc
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+```
+
+### VSCode Extention
+- Babel ES6/ES7
+- ESLint
+- Flow Language Support
+- Prettier - JavaScript formatter
+- (Option) Reactjs code snippets
+- (Option) NativeBase Snippets
+
+### VSCode Settings
+Add settings to VSCode Setting( [Code] => [Settings] or Cmd+,)
+```
+{
+  ...
+  "editor.formatOnSave": true,
+  "flow.useNPMPackagedFlow": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "prettier.eslintIntegration": true
+}
+```
+
+## Default Document
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
